@@ -1,4 +1,4 @@
-import { lazyReport  } from './report';
+import { lazyReport  } from '../utils/report';
 class ErrorTracker {
     constructor() {}
     /**

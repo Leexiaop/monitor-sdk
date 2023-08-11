@@ -1,4 +1,4 @@
-import { lazyReport } from './report';
+import { lazyReport } from '../utils/report';
 
 class PageTracker {
     beforeTime = Date.now(); // 进入页面的时间

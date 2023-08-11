@@ -1,5 +1,13 @@
-import { lazyReport } from './report';
-import { getPath } from './utils';
+/*
+ * @Author: Leexiaop 282191344@qq.com
+ * @Date: 2023-08-11 15:08:45
+ * @LastEditors: Leexiaop 282191344@qq.com
+ * @LastEditTime: 2023-08-11 17:52:48
+ * @FilePath: \monitor-sdk\src\core\ActionTracker.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
+import { lazyReport } from '../utils/report';
+import { getPath } from '../utils/utils';
 
 class ActionTracker {
     constructor() {}
